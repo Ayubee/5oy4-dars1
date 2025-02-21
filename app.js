@@ -7,7 +7,7 @@ image.height = "200";
 image.classList.add("card__image");
 const boldText = document.createElement("a");
 boldText.textContent = "Learning";
-boldText.href = "#";
+boldText.href = "./card.html";
 boldText.classList.add("link");
 const text = document.createElement("p");
 text.textContent = "Published 21 Dec 2023";
@@ -27,8 +27,6 @@ AvatarImage.src = "./img/greg.png";
 const textImage = document.createElement("h4");
 textImage.textContent = "Greg Hooper";
 textImage.classList.add("text__image");
-
 avatarContainer.append(AvatarImage, textImage);
-
 divWrapper.append(image, boldText, text, titleText, subText, avatarContainer);
 document.body.append(divWrapper);
