@@ -1,0 +1,100 @@
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4d04e;
+  line-height: 1.5;
+}
+.card {
+  padding: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.card__image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.link {
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111111;
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+}
+
+.data {
+  margin-top: 12px;
+  font-family: "Figtree";
+  font-weight: 500;
+  font-size: 14px;
+  color: #111111;
+}
+
+.title {
+  color: #111111;
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.subtitle {
+  font-family: "Figtree";
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f7f7f;
+  margin-top: 12px;
+}
+
+.avatarContainer {
+  display: flex;
+  margin-top: 24px;
+}
+
+.avatar__img {
+  justify-content: center;
+  align-items: center;
+}
+
+.text__image {
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 5.5px;
+}
